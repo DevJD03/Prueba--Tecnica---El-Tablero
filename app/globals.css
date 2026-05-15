@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+.container-main{
+  background: rgb(246, 239, 157);
+  align-content: center;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 900px;      
+  width: 100%;            
+  margin-left: auto;     
+  margin-right: auto;
+}
+
+.body{
+  background-color: aqua;
+}
+
+p {
+  margin: 15px;
+  padding: 10px;
+  font: small-caps 100%/200% serif;
+}
+
+h1{
+  display: flex;
+  font-family: Impact, sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+  letter-spacing: 4px;
+  transform: scaleX(1.3);
+  justify-content: center;
+  padding: 40px;
+}
+h2{
+  display: flex;
+  font: small-caps 100%/200% serif;
+  justify-content: center;
+
+}
+.container-titulo{
+  color:rgb(0, 0, 0);
+  margin-bottom: 20px;
+  
+    
+}
+
+.link-category{
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+  margin: 15px;
+
+}
+
+.link-category:hover{
+  background-color: rgb(234, 234, 234);
+  cursor: pointer;
+  border-color: rgb(71, 69, 66);
+}
+
+.search{
+  width: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+input {
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+.div-link-category{
+  display:flex;
+  justify-content: center;
+}
+
+.anuncios-homepage {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;          
+  padding: 20px;
+}
+
+.anuncio-card {
+  border-radius: 8px;
+  padding: 16px;
+  border: 2px solid transparent;
+}
+
+.anuncio-empleos {
+  background-color: #b7ecc3;
+  border-color: #28a745;
+}
+
+.anuncio-servicios {
+  background-color: #afd1f4;
+  border-color: #007bff;
+}
+
+.anuncio-vendo {
+  background-color: #f9ecbf;
+  border-color: #ffc107;
+}
+
+.anuncio-meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.anuncio-categoria {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.anuncio-fecha {
+  color: #666;
+  font-size: 12px;
+}
+
+.categorias-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 20px 0;
+  align-items: flex-start;
+}
+
+.bloque-categoria {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  padding: 16px;
+  gap: 12px;
+}
+
+.bloque-empleos {
+  background-color: #b7ecc3;
+  border-color: #28a745;
+}
+
+.bloque-servicios {
+  background-color: #afd1f4;
+  border-color: #007bff;
+}
+
+.bloque-vendo {
+  background-color: #f9ecbf;
+  border-color: #ffc107;
+}
+
+.bloque-categoria h2 {
+  font-family: Impact, sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.categoria-anuncio-card {
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.categoria-anuncio-card strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.categoria-anuncio-card span {
+  font-size: 11px;
+  color: #555;
+}
+
+.categoria-anuncio-card p {
+  font-size: 13px;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
